@@ -1,6 +1,6 @@
 # Create a (unique) bucket name automatically by using a prefix.
 resource "aws_s3_bucket" "static" {
-  bucket_prefix = "tf-static-site-"
+  bucket_prefix = "avery-tf-static-site"
   force_destroy = true # helpful during dev; remove or set false in prod
   tags = {
     Name      = "avery-tf-static-site"
